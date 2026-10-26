@@ -1,0 +1,8 @@
+torch>=2.6,<3
+transformers>=4.45,<5
+scikit-learn>=1.5,<2
+requests>=2.32
+matplotlib>=3.9
+nbformat>=5.10
+nbclient>=0.10
+ipykernel>=6.29

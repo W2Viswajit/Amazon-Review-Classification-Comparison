@@ -1,0 +1,13 @@
+{
+  "python": "3.13.16",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "scikit-learn": "1.6.1",
+    "numpy": "2.1.3",
+    "requests": "2.32.4",
+    "matplotlib": "3.10.0"
+  },
+  "gpu": "Tesla T4",
+  "cuda_version": "13.0"
+}

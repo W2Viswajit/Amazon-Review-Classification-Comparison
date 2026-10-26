@@ -1,0 +1,1054 @@
+{
+  "model": "tfidf",
+  "metrics": {
+    "accuracy": 0.825,
+    "macro_precision": 0.8258145363408521,
+    "macro_recall": 0.825,
+    "macro_f1": 0.8248905565978737,
+    "confusion_matrix": [
+      [
+        85,
+        15,
+        0
+      ],
+      [
+        20,
+        80,
+        0
+      ]
+    ],
+    "invalid": 0
+  },
+  "train_seconds": 0.9012024730000121,
+  "inference_seconds": 0.048069118999990224,
+  "validation": {
+    "accuracy": 0.8625,
+    "macro_precision": 0.8665411158017139,
+    "macro_recall": 0.8625,
+    "macro_f1": 0.8621199681622471,
+    "confusion_matrix": [
+      [
+        183,
+        17,
+        0
+      ],
+      [
+        38,
+        162,
+        0
+      ]
+    ],
+    "invalid": 0
+  },
+  "settings": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 30000,
+    "C": 1.0
+  },
+  "predictions": [
+    {
+      "id": "test:231275",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149743",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231219",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231233",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149715",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231278",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:231242",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231243",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149757",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149761",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149786",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149747",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231210",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149745",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231202",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:231262",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149723",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:231220",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149731",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231284",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149756",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231246",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231237",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231213",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231252",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149778",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231257",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231249",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231283",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231261",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149782",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231235",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149774",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149797",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231224",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149768",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149720",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231270",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231285",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149709",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149707",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231222",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231221",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149710",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149769",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231205",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231269",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149772",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231211",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149730",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149739",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231227",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149788",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231256",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231291",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231266",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149794",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231251",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149763",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231228",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149705",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231203",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149732",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231241",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231204",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149712",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231298",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149779",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149765",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231234",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149753",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231216",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149758",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149790",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231276",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149750",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149775",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231295",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231293",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149755",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149718",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149708",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149728",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231244",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149760",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149704",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149762",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149795",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149791",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231250",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149719",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231254",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149735",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231259",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231239",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231281",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149773",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149727",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149792",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231258",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149734",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149759",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149754",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231271",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231206",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149770",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149717",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149737",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231267",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231272",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231217",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149766",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231280",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231207",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149736",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149714",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:231201",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231289",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231232",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231238",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149703",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231286",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149721",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149780",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149744",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231288",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149767",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149738",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231229",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149749",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149700",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231214",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231226",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149799",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231253",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231230",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149784",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:231279",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149742",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149741",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149789",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231290",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149796",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231282",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231247",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231218",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231297",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231299",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149798",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149781",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149702",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149776",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149706",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231208",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231212",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231287",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149701",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231294",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231248",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149729",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:149725",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231296",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149711",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:149785",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149751",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149771",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149764",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149726",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149787",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231223",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231264",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149746",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231200",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231274",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149722",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231231",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149777",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231236",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149716",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231240",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231260",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149793",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149740",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149752",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231292",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149713",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231268",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231263",
+      "actual": 0,
+      "predicted": 1
+    },
+    {
+      "id": "test:231277",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149783",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149733",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231255",
+      "actual": 1,
+      "predicted": 0
+    },
+    {
+      "id": "test:231265",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231215",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231273",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:149724",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231209",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:149748",
+      "actual": 1,
+      "predicted": 1
+    },
+    {
+      "id": "test:231225",
+      "actual": 0,
+      "predicted": 0
+    },
+    {
+      "id": "test:231245",
+      "actual": 0,
+      "predicted": 0
+    }
+  ]
+}
